@@ -1,0 +1,12 @@
+.vscode 
+.dist
+.env
+venv
+
+prepros-6.config 
+# migrations
+
+# this is generated automatically
+__pycache__
+.pytest_cache
+.vscode

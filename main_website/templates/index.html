@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <region class="this is for the css and other things to insert">
+      <link rel="stylesheet" href="{{ url_for('static', filename="css\styles.css") }}">
+      
+
+    </region>
+  </head>
+  <body>
+
+    <button onclick="myFunc()">Click Me</button>
+
+    <h1>heading</h1>
+    <p>paragraph.</p>
+
+    
+    <region>
+      <script src="{{ url_for('static', filename="js\code.js") }}"></script>
+
+      <region>
+        <script async src="{{ url_for('static', filename='js/js-lib/ajax.js') }}"></script>
+        <script async src="{{ url_for('static', filename='js/js-lib/lStore.js') }}"></script>
+        <script async src="{{ url_for('static', filename='js/js-lib/util.js') }}"></script>
+        <script async src="{{ url_for('static', filename='js/js-lib/worker.js') }}"></script>
+      </region>
+    </region>
+
+  </body>
+</html>

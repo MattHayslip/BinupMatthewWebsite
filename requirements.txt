@@ -1,0 +1,18 @@
+flask #<============================ making the http server in python outside of django   
+flask_login #<====================== handling the login to the said system
+flask-sqlalchemy #<================= better handling sql data
+sqlalchemy #<======================= better handling sql data
+pymysql #<========================== better handling sql data
+# Flask-Mail #<======================= https://pythonhosted.org/Flask-Mail/ # might not use this
+cryptography #<===================== encryption
+python-dotenv #<==================== using .env files
+colorama #<========================= coloring in the console
+pandas #<=========================== I don't know what this is used for
+autopep8 #<========================= lynting or autocompletion
+gunicorn #<========================= heroku usage
+waitress #<========================= heroku usage
+Faker #<============================ generating fake data for testing purposes 
+flask_wtf #<======================== using this for csft protection mainly
+pytest #<=========================== unit testing for pything
+pip-review #<======================= in theory updating all avaliable field
+pip-check #<======================== for checking what needs to be update
