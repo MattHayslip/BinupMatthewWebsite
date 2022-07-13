@@ -1,0 +1,39 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Coaching{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
+
+{% endblock %}
+
+{% block body %}
+
+<h1>PARADIGM STRENGTH</h1>
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"
+             data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">PARADIGM STRENGTH</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/paradigmstrength/coaching">Coaches</a></li>
+                <li><a href="/paradigmstrength/programming">Programming</a></li>
+                <li><a href="/paradismstrength/contactus">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% endblock %}
